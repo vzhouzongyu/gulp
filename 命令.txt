@@ -1,0 +1,22 @@
+﻿1、nodeJs 环境安装？
+进入官网：http://www.nodejs.org/ 根据操作系统，下载相应的安装包，直接安装即可。
+
+2、npm 安装？
+a) 如果系统没有安装过Git，可以直接到https://github.com/isaacs/npm下载npm所需要的文件。
+b) 如果有Git 可以使用git下载。
+
+命令：git clone --recursive git://github.com/isaacs/npm.git
+
+下载到NPM文件后，命令行首先转到npm所在地址，输入以下代码进行安装。
+
+命令：node cli.js install npm -gf 
+
+3、grunt-cli安装？
+命令：npm install -g gulp 
+参数g表示全局安装。
+
+4. 执行 npm install 下载package.json文件中依赖的gulp模块和版本
+命令：npm install 
+
+5. 执行任务
+命令：gulp
